@@ -4,13 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms'; //import FormsModule
-import { HttpModule } from '@angular/http'; //import module
+import { HttpModule } from '@angular/http';
+import { UserCardComponent } from './user-card/user-card.component'; //import module
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SearchComponent
+    SearchComponent,
+    UserCardComponent
   ],
   imports: [
     BrowserModule,
