@@ -1,4 +1,4 @@
-package com.example.springbootmonolith.models;
+package com.example.usersapi.models;
 
 import lombok.*;
 import javax.persistence.*;
@@ -22,3 +22,5 @@ public class User {
     private String lastName;
 
 }
+
+
