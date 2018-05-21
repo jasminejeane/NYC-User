@@ -1,3 +1,6 @@
 <section *ngIf="users">
-<li *ngFor="let user of users">{{user.id}}</li>
+<li *ngFor="let user of users">
+  First Name: {{user.firstName}} <br>
+  Last Name: {{user.lastName}}
+</li>
 </section>
