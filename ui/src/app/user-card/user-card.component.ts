@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Http } from '@angular/http';
 
 @Component({
   selector: 'app-user-card',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserCardComponent implements OnInit {
 
-  constructor() { }
+  users: any;
+
+  constructor(
+    private http: Http
+  ) { }
 
   ngOnInit() {
+    this.http.get('/api/users')
+    .toPromise()
+    .then(response => this.users = response.json())
+
   }
 
 }

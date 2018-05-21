@@ -4,13 +4,13 @@
   <input (click)="findWeather(zip)" type="submit" value="Search"/>
 </section>
 
-
-<section *ngIf="users">
+<app-user-card></app-user-card>
+<!-- <section *ngIf="users">
 <li *ngFor="let user of users">{{user.id}}</li>
   <h3>{{users[0].id}}</h3>
   <p>{{users[0].firstName}}</p>
   <p>{{users[0].lastName}} </p>
-</section>
+</section> -->
 
 
 
