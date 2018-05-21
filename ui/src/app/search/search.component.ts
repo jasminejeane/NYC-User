@@ -15,6 +15,13 @@ export class SearchComponent implements OnInit {
       private http: Http
   ) { }
 
+  ngOnInit() {
+    this.http.get('/api/users')
+    .toPromise()
+    .then(response => this.users = response.json())
+
+      // });
+  }
   findWeather(zip){
      this.http.get('/api/users')
      .toPromise()
@@ -23,7 +30,7 @@ export class SearchComponent implements OnInit {
      //   response.json()
      // )
      // )
-     .then(response => this.users = response.json())
+     // .then(response => this.users = response.json())
 
      .catch(err => {
        console.log(err);
@@ -31,9 +38,5 @@ export class SearchComponent implements OnInit {
 
 
    }
-
-
-  ngOnInit() {
-  }
 
 }
