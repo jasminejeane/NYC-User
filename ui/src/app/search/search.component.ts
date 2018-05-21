@@ -9,7 +9,7 @@ import { Http } from '@angular/http';
 })
 export class SearchComponent implements OnInit {
 
-  weather: any; //add the public property here
+  users: any; //add the public property here
 
   constructor(
       private http: Http
@@ -18,11 +18,18 @@ export class SearchComponent implements OnInit {
   findWeather(zip){
      this.http.get('/api/users')
      .toPromise()
-     .then(response => console.log(
-       response.json()
-     )
-     )
-     // .then(response => this.weather = response.json()); // use it here
+     // .then(response =>
+     //   console.log(
+     //   response.json()
+     // )
+     // )
+     .then(response => this.users = response.json())
+
+     .catch(err => {
+       console.log(err);
+     });
+
+
    }
 
 
