@@ -1,33 +1,9 @@
 <section>
-  <h2>What's the Weather Where You're At?</h2>
-  <input [(ngModel)]="zip" type="text" placeholder="Zip Code Here"/>
-  <input (click)="findWeather(zip)" type="submit" value="Search"/>
+  <h2>New User?</h2>
+  <input [(ngModel)]="zip" type="text" placeholder="First Name"/>
+  <input [(ngModel)]="zip" type="text" placeholder="Last Name"/>
+  <input [(ngModel)]="zip" type="text" placeholder="Phone Number"/>
+  <input (click)="findWeather(zip)" type="submit" value="Submit"/>
 </section>
 
 <app-user-card></app-user-card>
-<!-- <section *ngIf="users">
-<li *ngFor="let user of users">{{user.id}}</li>
-  <h3>{{users[0].id}}</h3>
-  <p>{{users[0].firstName}}</p>
-  <p>{{users[0].lastName}} </p>
-</section> -->
-
-
-
-
-
-<!-- <section>
-  <h2>Sign Up </h2>
-  <p>Already a user? Sign In.</p>
-  <input type="text" name="" value="First Name">
-  <input type="text" name="" value="Last Name">
-  <input type="text" name="" value="Phone Number">
-  <input (click)="findAstronauts()" type="submit" value="Show List"/>
-</section>
-<section *ngIf="people">
-  <ul>
-    <li *ngFor="let astronaut of people">
-        <h3>{{astronaut.name}}</h3>
-    </li>
-</ul>
-</section> -->
