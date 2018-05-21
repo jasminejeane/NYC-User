@@ -1,6 +1,35 @@
 <section *ngIf="users">
-<li *ngFor="let user of users">
+  <div class="row">
+    <div class="col-sm-4" *ngFor="let user of users">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Profile: </h5>
+          <p class="card-text">First Name: {{user.firstName}}</p>
+          <p class="card-text">Last Name: {{user.lastName}}</p>
+          <a href="#">edit</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- <li *ngFor="let user of users">
   First Name: {{user.firstName}} <br>
   Last Name: {{user.lastName}}
-</li>
+</li> -->
 </section>
+
+
+
+<!-- <div class="row"> -->
+  <!-- <div class="col-sm-4" *ngFor="let user of users">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Profile: </h5>
+        <p class="card-text">First Name: {{user.firstName}}</p>
+        <p class="card-text">Last Name: {{user.lastName}}</p>
+        <a href="#">edit</a>
+      </div>
+    </div>
+  </div> -->
+
+
+<!-- </div> -->
