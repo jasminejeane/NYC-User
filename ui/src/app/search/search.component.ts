@@ -15,11 +15,11 @@ export class SearchComponent implements OnInit {
       private http: Http
   ) { }
 
-  findAstronauts(){
-    this.http.get('http://api.open-notify.org/astros.json')
-    .toPromise()
-    .then(response => this.people = response.json().people); //set it here
-    }
+  findWeather(zip){
+      this.http.get('http://api.openweathermap.org/data/2.5/weather?zip=' + zip + ',us&appid=052f26926ae9784c2d677ca7bc5dec98&&units=imperial')
+      .toPromise()
+      .then(response => console.log(response.json()));
+  }
 
   ngOnInit() {
   }

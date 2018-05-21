@@ -1,4 +1,14 @@
 <section>
+  <h2>What's the Weather Where You're At?</h2>
+  <input [(ngModel)]="zip" type="text" placeholder="Zip Code Here"/>
+  <input (click)="findWeather(zip)" type="submit" value="Search"/>
+</section>
+
+
+
+
+
+<!-- <section>
   <h2>Sign Up </h2>
   <p>Already a user? Sign In.</p>
   <input type="text" name="" value="First Name">
@@ -12,4 +22,4 @@
         <h3>{{astronaut.name}}</h3>
     </li>
 </ul>
-</section>
+</section> -->
