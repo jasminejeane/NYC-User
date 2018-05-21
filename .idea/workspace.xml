@@ -2,48 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bcc4174-cf22-46cc-bfd0-c533e1f1aa1b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/caches/4.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/caches/4.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/caches/4.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/caches/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/caches/4.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/caches/4.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/caches/modules-2/metadata-2.51/module-artifact.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/caches/modules-2/metadata-2.51/module-artifact.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/caches/modules-2/metadata-2.51/module-artifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/caches/modules-2/metadata-2.51/module-artifacts.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/caches/modules-2/metadata-2.51/module-metadata.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/caches/modules-2/metadata-2.51/module-metadata.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/caches/modules-2/metadata-2.51/resource-at-url.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/caches/modules-2/metadata-2.51/resource-at-url.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/caches/modules-2/modules-2.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/caches/modules-2/modules-2.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/caches/transforms-1/transforms-1.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/caches/transforms-1/transforms-1.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/daemon-27.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/daemon-27.out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/daemon-28.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/daemon-28.out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/registry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/registry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/registry.bin.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/registry.bin.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/caches/4.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/caches/4.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/caches/4.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/caches/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/caches/4.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/caches/4.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/caches/modules-2/metadata-2.51/module-artifact.bin" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/caches/modules-2/metadata-2.51/module-artifact.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/caches/modules-2/metadata-2.51/module-artifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/caches/modules-2/metadata-2.51/module-artifacts.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/caches/modules-2/metadata-2.51/module-metadata.bin" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/caches/modules-2/metadata-2.51/module-metadata.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/caches/modules-2/metadata-2.51/resource-at-url.bin" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/caches/modules-2/metadata-2.51/resource-at-url.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/caches/modules-2/modules-2.lock" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/caches/modules-2/modules-2.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/caches/transforms-1/transforms-1.lock" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/caches/transforms-1/transforms-1.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/daemon-27.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/daemon-27.out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/daemon-28.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/daemon-28.out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/registry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/registry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/registry.bin.lock" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/registry.bin.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/search/search.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/app/search/search.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/cache/caches/4.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/cache/caches/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/cache/caches/modules-2/modules-2.lock" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/cache/caches/modules-2/modules-2.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/cache/caches/transforms-1/transforms-1.lock" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/cache/caches/transforms-1/transforms-1.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/daemon-27.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/daemon-27.out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/daemon-28.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/daemon-28.out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/registry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/registry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/registry.bin.lock" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/registry.bin.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/src/main/java/com/example/usersapi/controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/src/main/java/com/example/usersapi/controllers/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/src/main/resources/db/migration/V1__Create_users_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/src/main/resources/db/migration/V1__Create_users_table.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/src/main/resources/db/migration/V2__Add_first_and_last_name_to_user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/src/main/resources/db/migration/V2__Add_first_and_last_name_to_user.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/src/main/resources/db/migration/afterMigrate.sql" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/src/main/resources/db/migration/afterMigrate.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -90,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UsersController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/users-api/src/main/java/com/example/usersapi/controllers/UsersController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="555">
@@ -111,11 +72,6 @@
               <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
@@ -191,10 +147,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-77" />
-    <option name="y" value="26" />
-    <option name="width" value="884" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="277" />
+    <option name="y" value="78" />
+    <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -428,7 +384,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="280" y="360" width="1440" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -846,6 +803,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/users-api/src/main/java/com/example/usersapi/controllers/UsersController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -857,16 +824,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

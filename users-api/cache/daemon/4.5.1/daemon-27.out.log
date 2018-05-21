@@ -159,3 +159,5 @@
 [2m2018-05-21 19:13:50.846[0;39m [32m INFO[0;39m [35m65[0;39m [2m---[0;39m [2m[nio-8081-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m FrameworkServlet 'dispatcherServlet': initialization started
 [2m2018-05-21 19:13:51.051[0;39m [32m INFO[0;39m [35m65[0;39m [2m---[0;39m [2m[nio-8081-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m FrameworkServlet 'dispatcherServlet': initialization completed in 203 ms
 [2m2018-05-21 19:13:52.967[0;39m [32m INFO[0;39m [35m65[0;39m [2m---[0;39m [2m[nio-8081-exec-1][0;39m [36mo.h.h.i.QueryTranslatorFactoryInitiator [0;39m [2m:[0;39m HHH000397: Using ASTQueryTranslatorFactory
+[2m2018-05-21 19:17:32.017[0;39m [32m INFO[0;39m [35m65[0;39m [2m---[0;39m [2m[trap-executor-0][0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver     [0;39m [2m:[0;39m Resolving eureka endpoints via configuration
+[2m2018-05-21 19:22:32.068[0;39m [32m INFO[0;39m [35m65[0;39m [2m---[0;39m [2m[trap-executor-0][0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver     [0;39m [2m:[0;39m Resolving eureka endpoints via configuration
