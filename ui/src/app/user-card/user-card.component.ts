@@ -8,8 +8,6 @@ import { Http } from '@angular/http';
 })
 export class UserCardComponent implements OnInit {
 
-  // users: any;
-
   users =[];
 
   constructor(
@@ -18,8 +16,7 @@ export class UserCardComponent implements OnInit {
 
   ngOnInit() {
     this.http.get('/api/users')
-    .toPromise()
-    .then(response => this.users = response.json())
+    .subscribe(response => this.users = response.json())
 
   }
 
