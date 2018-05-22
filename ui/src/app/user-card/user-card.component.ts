@@ -25,6 +25,11 @@ deleteUser(userId){
   .subscribe((response) => {
       console.log('deleted gif');
     });
+
+  const indexToRemove = this.users.findIndex((user) => {
+  return user.id === userId;
+});
+this.users.splice(indexToRemove, 1);
 }
 
 }
