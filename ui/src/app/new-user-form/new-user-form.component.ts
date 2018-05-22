@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Http } from '@angular/http';
 
 @Component({
-  selector: 'app-search',
-  templateUrl: './search.component.html',
-  styleUrls: ['./search.component.css']
+  selector: 'app-new-user-form',
+  templateUrl: './new-user-form.component.html',
+  styleUrls: ['./new-user-form.component.css']
 })
-export class SearchComponent implements OnInit {
+export class NewUserFormComponent implements OnInit {
 
   users: any;
   constructor(
