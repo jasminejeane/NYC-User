@@ -17,6 +17,10 @@ export class NewUserFormComponent implements OnInit {
 
 
   }
+
+  fname = null;
+  lname = null;
+  phone = null;
   submitUser(fname, lname, phone){
 
     const req = this.http.post('/api/users', {
@@ -34,6 +38,11 @@ export class NewUserFormComponent implements OnInit {
             console.log("Error occured");
           }
         );
+
+        this.fname = '';
+        this.lname = '';
+        this.phone = '';
+ // console.log(this.searchValue.length, this.searchValue, typeof(this.searchValue));
 
 }
 

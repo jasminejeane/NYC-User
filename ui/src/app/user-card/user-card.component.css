@@ -22,3 +22,8 @@ a.edit{
   color: #007bff;
   margin-right: -55px;
 }
+
+input{
+  margin-bottom: 10px;
+  width: 100%;
+}

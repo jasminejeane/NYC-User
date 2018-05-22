@@ -9,8 +9,8 @@
           <p class="card-text" *ngIf="!show">Last Name: {{user.lastName}}</p>
           <p class="card-text" *ngIf="!show">Phone: {{user.phone}}</p>
 
-          <input type="text" *ngIf="show" [(ngModel)]="fname" placeholder={{user.firstName}} ng-required/>
-          <input type="text" *ngIf="show" [(ngModel)]="lname" placeholder={{user.lastName}} ng-required/>
+          <input type="text" *ngIf="show" [(ngModel)]="fname" placeholder={{user.firstName}} ng-required/><br>
+          <input type="text" *ngIf="show" [(ngModel)]="lname" placeholder={{user.lastName}} ng-required/><br>
           <input type="text" *ngIf="show" [(ngModel)]="phone" placeholder={{user.phone}} ng-required/>
 
           <a class="edit col-md-3 offset-md-9" (click)="editing()">edit</a>
