@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Http } from '@angular/http';
+import { UserCardService } from './user-card.service';
 
 @Component({
   selector: 'app-user-card',
@@ -11,11 +12,11 @@ export class UserCardComponent implements OnInit {
   users =[];
 
   constructor(
-    private http: Http
-  ) { }
+    private userCardService: UserCardService
+) { }
 
   ngOnInit() {
-    this.http.get('/api/users')
+    this.userCardService.getAllUsers()
     .subscribe(response => this.users = response.json())
 
   }

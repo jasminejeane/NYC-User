@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Http } from '@angular/http';
-// import 'rxjs/add/operator/toPromise';
 
 @Component({
   selector: 'app-search',
@@ -9,8 +8,7 @@ import { Http } from '@angular/http';
 })
 export class SearchComponent implements OnInit {
 
-  users: any; //add the public property here
-
+  users: any;
   constructor(
       private http: Http
   ) { }
