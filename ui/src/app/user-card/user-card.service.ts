@@ -10,4 +10,9 @@ constructor(private http: Http) {}
   getAllUsers(){
     return this.http.get('/api/users');
   }
+
+  deleteUser(userId){
+    return this.http.delete(`/api/users/${userId}`);
+
+  }
 }

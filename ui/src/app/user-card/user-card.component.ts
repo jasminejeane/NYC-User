@@ -20,5 +20,11 @@ export class UserCardComponent implements OnInit {
     .subscribe(response => this.users = response.json())
 
   }
+deleteUser(userId){
+  this.userCardService.deleteUser(userId)
+  .subscribe((response) => {
+      console.log('deleted gif');
+    });
+}
 
 }

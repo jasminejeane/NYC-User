@@ -3,6 +3,7 @@
     <div class="col-sm-4" *ngFor="let user of users">
       <div class="card">
         <div class="card-body">
+          <p (click)="deleteUser(user.id)">x</p>
           <h5 class="card-title">Profile: </h5>
           <p class="card-text">First Name: {{user.firstName}}</p>
           <p class="card-text">Last Name: {{user.lastName}}</p>

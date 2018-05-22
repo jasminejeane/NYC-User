@@ -14,9 +14,7 @@ export class NewUserFormComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    // this.http.get('/api/users')
-    // .toPromise()
-    // .then(response => this.users = response.json())
+
 
   }
   submitUser(fname, lname, phone){
