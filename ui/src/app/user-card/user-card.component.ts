@@ -8,7 +8,9 @@ import { Http } from '@angular/http';
 })
 export class UserCardComponent implements OnInit {
 
-  users: any;
+  // users: any;
+
+  users =[];
 
   constructor(
     private http: Http

@@ -20,7 +20,6 @@ export class SearchComponent implements OnInit {
     .toPromise()
     .then(response => this.users = response.json())
 
-      // });
   }
   findWeather(zip){
      this.http.get('/api/users')
