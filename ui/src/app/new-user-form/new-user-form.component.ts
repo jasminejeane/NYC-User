@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Http } from '@angular/http';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-new-user-form',
@@ -10,7 +10,7 @@ export class NewUserFormComponent implements OnInit {
 
   users: any;
   constructor(
-      private http: Http
+      private http: HttpClient
   ) { }
 
   ngOnInit() {
@@ -21,21 +21,21 @@ export class NewUserFormComponent implements OnInit {
   }
   submitUser(fname, lname, phone){
 
-    console.log(fname, lname, phone);
-     // this.http.get('/api/users')
-     // .toPromise()
-     // // .then(response =>
-     // //   console.log(
-     // //   response.json()
-     // // )
-     // // )
-     // // .then(response => this.users = response.json())
-     //
-     // .catch(err => {
-     //   console.log(err);
-     // });
+    const req = this.http.post('/api/users', {
+        userName: 'testUser',
+        firstName: fname,
+        lastName: lname
 
+      })
+        .subscribe(
+          res => {
+            console.log(res);
+          },
+          err => {
+            console.log("Error occured");
+          }
+        );
 
-   }
+}
 
 }
