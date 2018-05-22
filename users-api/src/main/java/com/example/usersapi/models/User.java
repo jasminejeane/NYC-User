@@ -21,6 +21,9 @@ public class User {
     @Column(name = "LAST_NAME")
     private String lastName;
 
+    @Column(name = "PHONE")
+    private String phone;
+
 }
 
 
