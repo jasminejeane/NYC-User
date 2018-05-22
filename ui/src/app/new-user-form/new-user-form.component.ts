@@ -14,24 +14,26 @@ export class NewUserFormComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.http.get('/api/users')
-    .toPromise()
-    .then(response => this.users = response.json())
+    // this.http.get('/api/users')
+    // .toPromise()
+    // .then(response => this.users = response.json())
 
   }
-  findWeather(zip){
-     this.http.get('/api/users')
-     .toPromise()
-     // .then(response =>
-     //   console.log(
-     //   response.json()
-     // )
-     // )
-     // .then(response => this.users = response.json())
+  submitUser(fname, lname, phone){
 
-     .catch(err => {
-       console.log(err);
-     });
+    console.log(fname, lname, phone);
+     // this.http.get('/api/users')
+     // .toPromise()
+     // // .then(response =>
+     // //   console.log(
+     // //   response.json()
+     // // )
+     // // )
+     // // .then(response => this.users = response.json())
+     //
+     // .catch(err => {
+     //   console.log(err);
+     // });
 
 
    }
