@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bcc4174-cf22-46cc-bfd0-c533e1f1aa1b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/users-api/src/main/resources/db/migration/V3__Add_phone_number_to_user.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/caches/4.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/caches/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/daemon-27.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/daemon-27.out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/registry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/registry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/registry.bin.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/registry.bin.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/caches/4.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/caches/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/daemon-27.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/daemon-27.out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/registry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/registry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/registry.bin.lock" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/registry.bin.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/cache/caches/4.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/cache/caches/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/daemon-27.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/daemon-27.out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/registry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/registry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/registry.bin.lock" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/registry.bin.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/src/main/java/com/example/usersapi/controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/src/main/java/com/example/usersapi/controllers/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/src/main/java/com/example/usersapi/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/src/main/java/com/example/usersapi/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/src/main/resources/db/migration/V2__Add_first_and_last_name_to_user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/src/main/resources/db/migration/V2__Add_first_and_last_name_to_user.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/src/main/resources/db/migration/afterMigrate.sql" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/src/main/resources/db/migration/afterMigrate.sql" afterDir="false" />
-    </list>
+    <list default="true" id="8bcc4174-cf22-46cc-bfd0-c533e1f1aa1b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/users-api/src/main/resources/db/migration/V3__Add_phone_number_to_user.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -55,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/users-api/src/main/java/com/example/usersapi/models/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/users-api/src/main/resources/db/migration/afterMigrate.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -76,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/users-api/src/main/java/com/example/usersapi/controllers/UsersController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#802#803#0" expanded="true" />
@@ -137,9 +118,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="130" />
-    <option name="y" value="28" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="104" />
+    <option name="y" value="200" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
@@ -393,7 +374,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="130" y="28" width="1440" height="797" extended-state="0" />
+    <frame x="104" y="200" width="1440" height="797" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -791,7 +772,7 @@
     <entry file="file://$PROJECT_DIR$/users-api/src/main/resources/db/migration/V3__Add_phone_number_to_user.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -805,7 +786,7 @@
     <entry file="file://$PROJECT_DIR$/users-api/src/main/java/com/example/usersapi/controllers/UsersController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#802#803#0" expanded="true" />
@@ -827,7 +808,7 @@
     <entry file="file://$PROJECT_DIR$/users-api/src/main/java/com/example/usersapi/models/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -837,7 +818,7 @@
     <entry file="file://$PROJECT_DIR$/users-api/src/main/resources/db/migration/afterMigrate.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
