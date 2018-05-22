@@ -3,13 +3,17 @@
     <div class="col-sm-4" *ngFor="let user of users">
       <div class="card">
         <div class="card-body">
-          <p class="remove" (click)="deleteUser(user.id)">x</p>
+          <span class="remove" (click)="deleteUser(user.id)">x</span>
           <h5 class="card-title">Profile: </h5>
-          <p class="card-text">First Name: {{user.firstName}}</p>
-          <p class="card-text">Last Name: {{user.lastName}}</p>
-          <p class="card-text">Phone: {{user.phone}}</p>
+          <p class="card-text" *ngIf="!show">First Name: {{user.firstName}}</p>
+          <p class="card-text" *ngIf="!show">Last Name: {{user.lastName}}</p>
+          <p class="card-text" *ngIf="!show">Phone: {{user.phone}}</p>
 
-          <a href="#">edit</a>
+          <input type="text" *ngIf="show" [(ngModel)]="fname" placeholder={{user.firstName}} ng-required/>
+          <input type="text" *ngIf="show" [(ngModel)]="lname" placeholder={{user.lastName}} ng-required/>
+          <input type="text" *ngIf="show" [(ngModel)]="phone" placeholder={{user.phone}} ng-required/>
+
+          <a class="edit col-md-3 offset-md-9" (click)="editing()">edit</a>
         </div>
       </div>
     </div>

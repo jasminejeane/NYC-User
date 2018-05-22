@@ -2,9 +2,23 @@ section{
   margin-left: 25px;
   margin-right: 25px;
 }
+
 .card{
   margin-bottom: 25px;
 }
+
 .remove{
+  color: red;
+}
+.remove,
+.edit{
   cursor: pointer;
+  float: right;
+}
+
+a.edit{
+  /* needs other solution */
+  /* only good for full screen */
+  color: #007bff;
+  margin-right: -55px;
 }

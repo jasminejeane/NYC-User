@@ -22,7 +22,8 @@ export class NewUserFormComponent implements OnInit {
     const req = this.http.post('/api/users', {
         userName: 'testUser',
         firstName: fname,
-        lastName: lname
+        lastName: lname,
+        phone: phone
 
       })
         .subscribe(
