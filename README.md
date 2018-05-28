@@ -14,9 +14,15 @@ From Root:
 - `npm install`
 - `docker-compose up`
 
+When finished viewing:
+- `Ctrl + C` on mac
+-`docker-compose down`
+
 Navigate to UI  folder
 - `npm start`
 
+View Application - `localhost:4200`
+API - `localhost:8080/api/users`
 
 
 How to run the tests:
